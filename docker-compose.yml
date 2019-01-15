@@ -11,6 +11,8 @@ services:
     build: ./mongo-seed
     links:
       - mongo
+    networks:
+      - phone-ordering-service_net
   phone-catalog:
     build: .
     container_name: phone-catalog
