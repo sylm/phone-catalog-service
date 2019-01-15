@@ -9,7 +9,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 Java 10+
+
 Gradle 5
+
 Docker 1.8
 
 ### Installing
@@ -26,13 +28,13 @@ Test data will be populated automatically by mongo-seed.
 
 ## Running the tests
 
-curl -X GET http://<your host>:8080/phone-service/v1/phones
+curl -X GET http://your host:8080/phone-service/v1/phones
 
 
 ## Deployment
 
 Spring actuator was configured so /health, /info etc are available for heartbeats check.
-e.g. http://<your host>:8080/actuator/health
+e.g. http://your host:8080/actuator/health
 
 ## Built With
 
