@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Samsung Galaxy A8+",
+    "description": "Samsung Galaxy A8+ (Gold, 6GB RAM, 64GB Storage) with Offers",
+    "photoLink": "https://images-na.ssl-images-amazon.com/images/I/41NgHRZne2L.jpg",
+    "price": 555
+  },
+  {
+    "name": "Nokia 6.1",
+    "description": "Nokia 6.1 (Blue-Gold, 4GB RAM, 64GB Storage)",
+    "photoLink": "https://images-na.ssl-images-amazon.com/images/I/31Nbg-oB52L.jpg",
+    "price": 365
+  },
+  {
+    "name": "Moto G6 Plus ",
+    "description": "Moto G6 Plus (Indigo Black, 6+64 GB)",
+    "photoLink": "https://images-na.ssl-images-amazon.com/images/I/31L9Lj9HBCL.jpg",
+    "price": 445
+  },
+  {
+    "name": "Apple iPhone X",
+    "description": "Apple iPhone X (Space Grey, 3GB RAM, 64GB Storage, 12 MP Dual Camera, 458 PPI Display)",
+    "photoLink": "https://images-na.ssl-images-amazon.com/images/I/61682XpNGFL._SY550_.jpg",
+    "price": 850
+  },
+  {
+    "name": "Apple iPhone Xs",
+    "description": "Apple iPhone Xs (Gold, 4GB RAM, 256GB Storage, 12 MP Dual Camera, 458 PPI Display)",
+    "photoLink": "https://images-na.ssl-images-amazon.com/images/I/91fwS6WbFVL._SY606_.jpg",
+    "price": 1000
+  }
+]

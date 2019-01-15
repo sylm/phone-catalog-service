@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+  mongo:
+     image: mongo:latest
+     container_name: mongodb-container
+     ports:
+       - 27017:27017
+     networks:
+       - phone-ordering-service_net
+  mongo-seed:
+    build: ./mongo-seed
+    links:
+      - mongo
+  phone-catalog:
+    build: .
+    container_name: phone-catalog
+    ports:
+      - 8080:8080
+    depends_on:
+      - mongo
+    networks:
+      - phone-ordering-service_net
+networks:
+  phone-ordering-service_net:
+    external: true
