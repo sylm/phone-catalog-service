@@ -21,7 +21,7 @@ public class PhoneCatalogController {
     private PhoneRepository phoneRepository;
 
     @GetMapping("/phones")
-    public ResponseEntity<List<Phone>> getAllPhones(@RequestParam(required = false) String[] ids){
+    public ResponseEntity<List<Phone>> getPhones(@RequestParam(required = false) String[] ids){
         if(ids != null){
             new ResponseEntity<>(phoneRepository.findAllById(Arrays.asList(ids)), HttpStatus.OK);
         }
